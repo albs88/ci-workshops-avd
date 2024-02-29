@@ -1,7 +1,3 @@
-hostname: s1-leaf2
-metadata:
-  platform: cEOS
-is_deployed: true
 static_routes:
 - vrf: default
   destination_address_prefix: 0.0.0.0/0
@@ -22,7 +18,7 @@ local_users:
 - name: arista
   privilege: 15
   role: network-admin
-  sha512_password: $6$workshop$BLUF1gglhkt0rS4rdqrnz.tgO6iRbA7HjwYsT1llF7/l2DAukviYpHGXN1N9EQozSJLMFe2EvV2KF.BrR2SEr0
+  sha512_password: $6$workshop$5Llb6kE2/P4Zx.1yLwkd9QfMtazdVEPYmJG3pfgrhT2dhka.5odGw6xS19uMSerZIhi.q2krArh9Dl8qMi2B60
 vrfs:
 - name: default
   ip_routing: false
